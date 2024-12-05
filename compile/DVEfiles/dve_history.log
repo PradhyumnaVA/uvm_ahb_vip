@@ -1,0 +1,85 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/student/cadWorkDir/uvm_prady/workshop_labs/compile/test.vcd -design V1} {gui_open_db -file /home/student/cadWorkDir/myProjects/synopsys/sequencedetector/sim/output.vcd.vpd -design V1} {gui_open_db -file /home/student/cadWorkDir/myProjects/synopsys/sequencedetector/sim/output.vcd -design V1} {gui_open_db -file /home/student/cadWorkDir/myProjects/synopsys/workshop2/test.vpd -design V1}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1902
+gui_set_state_value -category Layout -key child_console_size_y -value 162
+gui_set_state_value -category Layout -key child_data_size_x -value 157
+gui_set_state_value -category Layout -key child_data_size_y -value 718
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 157
+gui_set_state_value -category Layout -key child_hier_size_y -value 718
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1591
+gui_set_state_value -category Layout -key child_source_size_y -value 713
+gui_set_state_value -category Layout -key child_wave_colname -value 265
+gui_set_state_value -category Layout -key child_wave_colvalue -value 265
+gui_set_state_value -category Layout -key child_wave_left -value 535
+gui_set_state_value -category Layout -key child_wave_right -value 1305
+gui_set_state_value -category Layout -key main_pos_x -value 0
+gui_set_state_value -category Layout -key main_pos_y -value 97
+gui_set_state_value -category Layout -key main_size_x -value 1902
+gui_set_state_value -category Layout -key main_size_y -value 1052
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1850
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 905
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 74
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 67
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1919
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1052
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/student/cadWorkDir/uvm_prady/workshop_labs/compile/test.vcd -design V1
+gui_list_expand -id  Hier.1   ahb_config_pcounter_testbench_top
+gui_list_expand -id  Hier.1   ahb_config_pcounter_testbench_top.dut
+gui_list_select -id Hier.1 -current_item_name ahb_config_pcounter_testbench_top.rst_gen_inst_0 -current_item_type Scope  -selected  { ahb_config_pcounter_testbench_top.rst_gen_inst_0   }
+gui_list_select -id Hier.1 -current_item_name ahb_config_pcounter_testbench_top.dut.pcounter_i -current_item_type Scope  -selected  { ahb_config_pcounter_testbench_top.dut.pcounter_i   }
+gui_list_select -id Hier.1 -current_item_name ahb_config_pcounter_testbench_top.ahb_slave_interface -current_item_type Scope  -selected  { ahb_config_pcounter_testbench_top.ahb_slave_interface   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Hier.1 { ahb_config_pcounter_testbench_top.ahb_slave_interface } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 1284
+gui_marker_move -id  Wave.1 C1 170000
+gui_list_select -id Hier.1 -current_item_name ahb_config_pcounter_testbench_top.ahb_slave_interface -current_item_type Scope  -selected  {  }
+gui_close_window -window TopLevel.2
+gui_open_db -file /home/student/cadWorkDir/uvm_prady/workshop_labs/compile/test.vcd -design V2
+gui_list_expand -id  Hier.1   V2:ahb_config_pcounter_testbench_top
+gui_list_expand -id  Hier.1   V2:ahb_config_pcounter_testbench_top.dut
+gui_list_select -id Hier.1 -current_item_name V2:ahb_config_pcounter_testbench_top.dut.pcounter_i -current_item_type Scope  -selected  { V2:ahb_config_pcounter_testbench_top.dut.pcounter_i   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Hier.1 { V2:ahb_config_pcounter_testbench_top.dut.pcounter_i } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 1367
+gui_wv_scroll_hslidermove -id  Wave.1 1175
+gui_wv_scroll_hslidermove -id  Wave.1 983
+gui_wv_scroll_hslidermove -id  Wave.1 1175
+gui_wv_scroll_hslidermove -id  Wave.1 1367
+gui_wv_scroll_hslidermove -id  Wave.1 1559
+gui_wv_scroll_hslidermove -id  Wave.1 1751
+gui_wv_scroll_hslidermove -id  Wave.1 1943
+gui_wv_scroll_hslidermove -id  Wave.1 2135
+gui_marker_move -id  Wave.1 C1 315602
+gui_close_window -window TopLevel.2

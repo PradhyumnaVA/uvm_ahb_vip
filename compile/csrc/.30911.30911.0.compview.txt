@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1733222836.940745484, "rt":5.81, "ut":4.61, "st":0.12}}
+{"vcselab":{"timestamp_begin":1733222842.794750488, "rt":1.25, "ut":0.19, "st":0.03}}
+{"link":{"timestamp_begin":1733222844.072069672, "rt":0.16, "ut":0.12, "st":0.03}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1733222836.699279284}
+{"VCS_COMP_START_TIME": 1733222836.699279284}
+{"VCS_COMP_END_TIME": 1733222844.264427194}
+{"VCS_USER_OPTIONS": "-timescale=1ns/1ns -sverilog +define+VCD_DUMP +incdir+/home/student/cadWorkDir/uvm_prady/workshop_labs/uvm-1.1d +incdir+/home/student/cadWorkDir/uvm_prady/workshop_labs/vk_ahb_vip/ahb_master -f /home/student/cadWorkDir/uvm_prady/workshop_labs/compile//filelist.f /home/student/cadWorkDir/uvm_prady/workshop_labs/compile//build//lib/uvm_dpi.so"}
+{"vcs1": {"peak_mem": 268716}}
+{"vcselab": {"peak_mem": 145708}}
